@@ -1,0 +1,15 @@
+.mobile {
+  min-width: 640px;
+}
+
+@media (max-width: 639px) {
+  .mobile {
+    background-image: url("../public/images/iphone.png");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+}
